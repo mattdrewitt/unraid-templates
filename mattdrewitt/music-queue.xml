@@ -3,7 +3,7 @@
   <TemplateURL>https://raw.githubusercontent.com/mattdrewitt/unraid-templates/master/mattdrewitt/music-queue.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>MediaServer:Music</Category>
-  <Name>Music Queue</Name>
+  <Name>music-queue</Name>
   <Description></Description>
   <Overview></Overview>
   <Support></Support>
@@ -30,6 +30,14 @@
   </Networking>
   <Environment>
     <Variable>
+      <Name>MUSIC_QUEUE_SPOTIFY_ID</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>MUSIC_QUEUE_SPOTIFY_SECRET</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
       <Name>MUSIC_QUEUE_YOUTUBE_KEY</Name>
       <Value></Value>
     </Variable>
@@ -38,11 +46,19 @@
       <Value></Value>
     </Variable>
     <Variable>
+      <Name>MUSIC_QUEUE_DB_HOST</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
       <Name>MUSIC_QUEUE_DB_USERNAME</Name>
       <Value></Value>
     </Variable>
     <Variable>
       <Name>MUSIC_QUEUE_DB_PASSWORD</Name>
+      <Value></Value>
+    </Variable>
+     <Variable>
+      <Name>MUSIC_QUEUE_GMAIL_PASSWORD</Name>
       <Value></Value>
     </Variable>
     <Variable>
