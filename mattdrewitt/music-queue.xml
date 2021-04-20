@@ -63,17 +63,17 @@
     </Variable>
     <Variable>
       <Name>PUID</Name>
-      <Value>99</Value>
+      <Value>0</Value>
     </Variable>
     <Variable>
       <Name>PGID</Name>
-      <Value>100</Value>
+      <Value>0</Value>
     </Variable>
   </Environment>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/config</HostDir>
-      <ContainerDir>/usr/src/app</ContainerDir>
+      <HostDir>/mnt/user/appdata/music-queue/log</HostDir>
+      <ContainerDir>/usr/src/app/log</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
