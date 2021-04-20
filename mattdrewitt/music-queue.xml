@@ -73,12 +73,7 @@
   <Data>
     <Volume>
       <HostDir>/mnt/user/appdata/config</HostDir>
-      <ContainerDir>/config</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/user</HostDir>
-      <ContainerDir>/media</ContainerDir>
+      <ContainerDir>/usr/src/app</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
