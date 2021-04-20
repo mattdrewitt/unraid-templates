@@ -9,7 +9,7 @@
   <Support></Support>
   <Registry></Registry>
   <GitHub>https://github.com/mattdrewitt/music-queue</GitHub>
-  <Repository>music-queue:latest</Repository>
+  <Repository>music-queue</Repository>
   <Project></Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
