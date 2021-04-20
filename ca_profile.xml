@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://raw.githubusercontent.com/mdrewitt/unraid-templates/master/mdrewitt/images/ruby.png</Icon>
+  <Profile>
+    Personal repo for some docker templates
+  </Profile>
+</Maintainer>
