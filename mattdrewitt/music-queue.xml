@@ -3,13 +3,13 @@
   <TemplateURL>https://raw.githubusercontent.com/mattdrewitt/unraid-templates/master/mattdrewitt/music-queue.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>MediaServer:Music</Category>
-  <Name>music-queue</Name>
+  <Name>Music Queue</Name>
   <Description></Description>
   <Overview></Overview>
   <Support></Support>
   <Registry></Registry>
   <GitHub>https://github.com/mattdrewitt/music-queue</GitHub>
-  <Repository>music-queue</Repository>
+  <Repository>music_queue</Repository>
   <Project></Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
