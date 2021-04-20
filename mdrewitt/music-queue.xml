@@ -47,7 +47,7 @@
     </Variable>
     <Variable>
       <Name>MUSIC_QUEUE_ELASTICSEARCH_HOST</Name>
-      <Value></Value>SECRET_KEY_BASE
+      <Value></Value>
     </Variable>
     <Variable>
       <Name>SECRET_KEY_BASE</Name>
