@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <TemplateURL>https://raw.githubusercontent.com/mdrewitt/unraid-templates/master/mdrewitt/music-queue.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/mattdrewitt/unraid-templates/master/mattdrewitt/music-queue.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>MediaServer:Music</Category>
   <Name>music-queue</Name>
@@ -8,7 +8,7 @@
   <Overview></Overview>
   <Support></Support>
   <Registry></Registry>
-  <GitHub>https://github.com/mdrewitt/music-queue</GitHub>
+  <GitHub>https://github.com/mattdrewitt/music-queue</GitHub>
   <Repository>music-queue:latest</Repository>
   <Project></Project>
   <BindTime>true</BindTime>
@@ -83,6 +83,6 @@
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:3000]/</WebUI>
-  <Icon>https://raw.githubusercontent.com/mdrewitt/unraid-templates/master/mdrewitt/images/jukebox.png</Icon>
+  <Icon>https://raw.githubusercontent.com/mattdrewitt/unraid-templates/master/mattdrewitt/images/jukebox.png</Icon>
   <ExtraParams></ExtraParams>
 </Containers>
