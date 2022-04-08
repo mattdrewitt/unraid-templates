@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <TemplateURL>https://raw.githubusercontent.com/mattdrewitt/unraid-templates/master/mattdrewitt/aws-cli.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>Productivity: Tools:</Category>
+  <Name>music-queue</Name>
+  <Description></Description>
+  <Overview></Overview>
+  <Support></Support>
+  <Registry>https://registry.hub.docker.com/r/amazon/aws-cli</Registry>
+  <GitHub></GitHub>
+  <Repository></Repository>
+  <Project></Project>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Environment>
+    </Variable>
+      <Name>UMASK</Name>
+      <Value>000</Value>
+    </Variable>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>0</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>0</Value>
+    </Variable>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/backups/</HostDir>
+      <ContainerDir>/usr/src/backups</ContainerDir>
+      <Mode>r</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/aws-cli/.aws</HostDir>
+      <ContainerDir>/root/.aws</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/aws-cli/aws</HostDir>
+      <ContainerDir>/aws</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Icon>https://raw.githubusercontent.com/mattdrewitt/unraid-templates/master/mattdrewitt/images/aws.png</Icon>
+  <ExtraParams></ExtraParams>
+</Containers>
