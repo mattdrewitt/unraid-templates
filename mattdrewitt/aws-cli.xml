@@ -3,7 +3,7 @@
   <TemplateURL>https://raw.githubusercontent.com/mattdrewitt/unraid-templates/master/mattdrewitt/aws-cli.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>Productivity: Tools:</Category>
-  <Name>music-queue</Name>
+  <Name>aws-cli</Name>
   <Description></Description>
   <Overview></Overview>
   <Support></Support>
