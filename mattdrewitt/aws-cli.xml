@@ -9,7 +9,7 @@
   <Support></Support>
   <Registry>https://registry.hub.docker.com/r/amazon/aws-cli</Registry>
   <GitHub></GitHub>
-  <Repository></Repository>
+  <Repository>amazon/aws-cli</Repository>
   <Project></Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
