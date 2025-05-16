@@ -7,7 +7,8 @@
   <Description></Description>
   <Overview></Overview>
   <Support></Support>
-  <Registry></Registry>
+  <Registry>ghcr.io/tensorchord/</Registry>
+  <Repository>ghcr.io/tensorchord/pgvecto-rs:pg16-v0.3.0</Repository>
   <Support>https://github.com/tensorchord/pgvecto.rs</Support>
   <Project>https://www.postgresql.org/</Project>
   <Project></Project>
