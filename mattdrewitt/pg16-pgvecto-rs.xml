@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <TemplateURL>https://raw.githubusercontent.com/mattdrewitt/unraid-templates/master/mattdrewitt/pg16-pgvecto-rs.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>Network:Management, Productivity, Tools:Utilities</Category>
+  <Name>pg16-pgvecto-rs</Name>
+  <Description></Description>
+  <Overview></Overview>
+  <Support></Support>
+  <Registry></Registry>
+  <Support>https://github.com/tensorchord/pgvecto.rs</Support>
+  <Project>https://www.postgresql.org/</Project>
+  <Project></Project>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5432</HostPort>
+        <ContainerPort>5432</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>POSTGRES_PASSWORD</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>UMASK</Name>
+      <Value>000</Value>
+    </Variable>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>0</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>0</Value>
+    </Variable>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/postgresql16-pgvecto-rs</HostDir>
+      <ContainerDir>/var/lib/postgresql/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Icon>https://raw.githubusercontent.com/mattdrewitt/unraid-templates/master/mattdrewitt/images/postgres16.png</Icon>
+  <ExtraParams></ExtraParams>
+</Containers>
